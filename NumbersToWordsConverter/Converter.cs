@@ -14,30 +14,39 @@ namespace NumbersToWordsConverter
             Console.Write("Please enter a number between 0 and 9999: ");
             string number = Console.ReadLine();
 
-            // check user input to make sure a number has been entered
-            if (int.TryParse(number, out int value))
+            // check user input to make sure a number has been entered and is between the vaild limits.
+            if (int.TryParse(number, out int value) && value >= 0 && value <= 9999)
             {
+                // depending on the length of the input string use a particular function. 
                 if (number.Length == 1)
                 {
                     Console.WriteLine(OneDigitNumber(number));
+                    Console.Write("\n");
+                    Console.Write("Press enter to continue");
                     Console.ReadLine();
                     userInput();
                 }
                 else if (number.Length == 2)
                 {
                     Console.WriteLine(TwoDigitNumber(number));
+                    Console.Write("\n");
+                    Console.Write("Press enter to continue");
                     Console.ReadLine();
                     userInput();
                 }
                 else if (number.Length == 3)
                 {
                     Console.WriteLine(ThreeDigitNumber(number));
+                    Console.Write("\n");
+                    Console.Write("Press enter to continue");
                     Console.ReadLine();
                     userInput();
                 }
                 else if (number.Length == 4)
                 {
                     Console.WriteLine(FourDigitNumber(number));
+                    Console.Write("\n");
+                    Console.Write("Press enter to continue");
                     Console.ReadLine();
                     userInput();
                 }
@@ -52,11 +61,11 @@ namespace NumbersToWordsConverter
         {
             // Case 1: numbers from 0 to 9 
             string results;
+            // search dictionary for the matching key value pair. 
             foreach (KeyValuePair<string, string> word in dictionary.onesDictionary)
             {
                 if (dictionary.onesDictionary.TryGetValue(inputNumber, out results))
                 {
-                    // Console.WriteLine("{0}", results);
                     return results;
                 }
             }
@@ -109,9 +118,10 @@ namespace NumbersToWordsConverter
 
         public string ThreeDigitNumber(string inputNumber)
         {
-            // Case 1: multiples of 100; 
-            // Case 2: Multiples of 100 with multiples of 10; Example 110. 
-            // Case 3: Combination of all three; 
+            // Case 1: multiples of 100;
+            // Case 2: mutiples of 100 with a single digit at the end. Example 102
+            // Case 3: Multiples of 100 with multiples of 10; Example 110. 
+            // Case 4: Combination of all three; 
 
             // convert multiples of 100 into words; 
             char[] splitnumber = inputNumber.ToCharArray();
@@ -126,11 +136,9 @@ namespace NumbersToWordsConverter
                     return results + " hundred";
                 }
             }
-            // example 102 
+            // CASE 2:  example 102 
             else if (splitnumber[1].ToString() == "0")
             {
-                
-
                 for (int i = 0; i < splitnumber.Length; i++)
                 {
                     if (splitnumber[i].ToString() != "0")
@@ -143,7 +151,7 @@ namespace NumbersToWordsConverter
                 }
                 return hundredslist[0].ToString() + " hundred and " + hundredslist[1].ToString();
             }
-            // if there are no zero's 
+            // CASE 3: if there are no zero's 
             else
             {
                 // get the hundreds unit
