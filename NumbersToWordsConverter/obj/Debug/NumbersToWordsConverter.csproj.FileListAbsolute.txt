@@ -1,0 +1,14 @@
+C:\Users\calum\source\repos\NumbersToWordsConverter\NumbersToWordsConverter\bin\Debug\NumbersToWordsConverter.exe.config
+C:\Users\calum\source\repos\NumbersToWordsConverter\NumbersToWordsConverter\bin\Debug\NumbersToWordsConverter.exe
+C:\Users\calum\source\repos\NumbersToWordsConverter\NumbersToWordsConverter\bin\Debug\NumbersToWordsConverter.pdb
+C:\Users\calum\source\repos\NumbersToWordsConverter\NumbersToWordsConverter\obj\Debug\NumbersToWordsConverter.csprojAssemblyReference.cache
+C:\Users\calum\source\repos\NumbersToWordsConverter\NumbersToWordsConverter\obj\Debug\NumbersToWordsConverter.csproj.CoreCompileInputs.cache
+C:\Users\calum\source\repos\NumbersToWordsConverter\NumbersToWordsConverter\obj\Debug\NumbersToWordsConverter.exe
+C:\Users\calum\source\repos\NumbersToWordsConverter\NumbersToWordsConverter\obj\Debug\NumbersToWordsConverter.pdb
+C:\Users\calum\OneDrive\Desktop\NumberstoWordsConverter\NumbersToWordsConverter\bin\Debug\NumbersToWordsConverter.exe.config
+C:\Users\calum\OneDrive\Desktop\NumberstoWordsConverter\NumbersToWordsConverter\bin\Debug\NumbersToWordsConverter.exe
+C:\Users\calum\OneDrive\Desktop\NumberstoWordsConverter\NumbersToWordsConverter\bin\Debug\NumbersToWordsConverter.pdb
+C:\Users\calum\OneDrive\Desktop\NumberstoWordsConverter\NumbersToWordsConverter\obj\Debug\NumbersToWordsConverter.csprojAssemblyReference.cache
+C:\Users\calum\OneDrive\Desktop\NumberstoWordsConverter\NumbersToWordsConverter\obj\Debug\NumbersToWordsConverter.csproj.CoreCompileInputs.cache
+C:\Users\calum\OneDrive\Desktop\NumberstoWordsConverter\NumbersToWordsConverter\obj\Debug\NumbersToWordsConverter.exe
+C:\Users\calum\OneDrive\Desktop\NumberstoWordsConverter\NumbersToWordsConverter\obj\Debug\NumbersToWordsConverter.pdb
