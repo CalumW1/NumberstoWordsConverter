@@ -8,6 +8,7 @@ namespace NumbersToWordsConverter
 {
     class Program
     {
+        // test commit
         private Dictionary dictionary = new Dictionary();
         static void Main(string[] args)
         {
